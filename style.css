@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(230, 173, 173);
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#clickButton {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+    border: none;
+
+    background-color: rgb(255, 0, 140);
+    color: white;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+#clickButton:hover {
+    background-color: rgb(47, 0, 255);
+}
+
+#clickButton:active {
+    transform: scale(0.95);
+}
+
+#upgradeButton {
+    padding: 15px 30px;
+    font-size: 18px;
+
+    background-color: rgb(128, 0, 2);
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+#upgradeButton:hover {
+    background-color: rgb(100, 0, 0);
+}
+
+#resetButton {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
